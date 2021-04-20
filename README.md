@@ -6,19 +6,19 @@
 ### http://127.0.0.1/phpMyAdmin/
 ### http://127.0.0.1/wordpress/
 
-**FROM** *defines the source img*
+**FROM** : *defines the source img*
 
-**RUN** *executes commands inside the docker*
+**RUN** : *executes commands inside the docker*
 
-**ADD** *adds files inside the docker*
+**ADD** : *adds files inside the docker*
 
-**WORKDIR** *defines your workspace*
+**WORKDIR** : *defines your workspace*
 
-**EXPOSE** *enter the port number on which the SSH server is listening*
+**EXPOSE** : *enter the port number on which the SSH server is listening*
 
-**VOLUME** *defines the usable sound output*
+**VOLUME** : *defines the usable sound output*
 
-**CMD** *defines the default command when your docker is running*
+**CMD** : *defines the default command when your docker is running*
 
 ## EXAMPLES
 
