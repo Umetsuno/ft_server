@@ -1,10 +1,10 @@
 # ft_serveur
 
+## CHEAT SHEET
+
 ### http://127.0.0.1
 ### http://127.0.0.1/phpMyAdmin/
 ### http://127.0.0.1/wordpress/
-
-## CHEAT SHEET
 
 **FROM** *defines the source img*
 
@@ -22,14 +22,14 @@
 
 ## EXAMPLES
 
-- *docker run*
-- *docker run -p 80:80 nginx* : **-p** is the suitable option to choose your port(s)
-- *docker stop* ID_RETOURNÉ_LORS_DU_DOCKER_RUN si cree avec --detach
-- docker rm ID_RETOURNÉ_LORS_DU_DOCKER_RUN
-- docker ps
-- docker images -a : la commande pour faire le ménage : docker system prune
+- **docker run**
+- **docker run -p 80:80 nginx** : *-p is the suitable option to choose your port(s)*
+- **docker stop** : *returned_docker_ID if it was created with --detach*
+- **docker rm** : *returned_docker_run_ID*
+- **docker ps** : *active dockers display*
+- **docker images -a** : *displays absolutly every ISO image*
+- **docker system prune** : *clean everything*
 
-- docker build -t <NOM que je veux> .
-- docker run -p 80:80 -p 443:443 -it <NOM que je veux> bash
-- service nginx start
-
+- *docker build -t <chosen name> .*
+- *docker run -p 80:80 -p 443:443 -it <chosen name> bash*
+- *service nginx start*
